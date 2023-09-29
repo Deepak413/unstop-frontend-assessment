@@ -1,0 +1,135 @@
+
+/* CREATE ASSESSMENT CRAD CSS */
+
+.my-assessment-container{
+    /* border: 1px solid black; */
+    padding: 13px 25px;
+}
+.my-assessment-heading{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+.my-assessment-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.create-card-container{
+    width: 30%;
+    height: 15rem;
+    background-color: #eaeaea;
+    border: 1px dotted rgb(168, 168, 168);
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    border-radius: 15px;
+    /* margin: auto; */
+}
+.create-card-container:hover{
+    background-color: #cbcaca;
+    transition: all ease 0.5s;
+    border: 1px dotted rgb(168, 168, 168);
+}
+.create-card-icon{
+    border-radius: 50%;
+    font-size: 2.5rem !important;
+    color: #3a3ffd;
+    padding: 22px;
+    background-color: white;
+}
+.create-card-heading{
+    font-size: 24px;
+    font-weight: bold;
+}
+.create-card-text{
+    width: 80%;
+    margin: 12px auto 29px auto;
+    font-size: 17px;
+    font-weight: 500;
+}
+.create-card-icon-div{
+    margin-top: 25px;
+}
+
+
+/* ASSESSMENT CARD CSS */
+.card-container{
+    width: 30%;
+    height: 15rem;
+    border: 1px solid rgb(168, 168, 168);
+    padding: 17px;
+    border-radius: 15px;
+    /* margin: auto; */
+}
+
+.card-icon{
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #eaeaea;
+    font-size: 33px !important;
+    color: blue;
+}
+.card-icon-dots{
+    float: right;
+    font-size: 40px !important;
+}
+
+.card-heading{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+hr.assessment-card-hr {
+    border-style: dotted;
+    border-color: #a5a5a5;
+    margin: 26px 0px;
+    border-spacing: 8px;
+}
+.card-heading-title{
+    font-size: 20px;
+}
+.card-details{
+    display: flex;
+    justify-content: space-between;
+}
+.card-detail-texts{
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+}
+.card-detail-btns{
+    float: right;
+}
+.card-detail-button1{
+    padding: 7px 13px;
+    border-radius: 16px;
+    font-size: 16px;
+    border: 2px solid #282845;
+    color: #282845;
+    margin-right: 7px;
+}
+.card-detail-button2{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+@media (max-width: 500px){
+    .my-assessment-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .create-card-container{
+        width: 92%;
+    }
+    .card-container{
+        width: 92%;
+    }
+
+
+    
+}

@@ -1,0 +1,122 @@
+
+.assessment-overview-container{
+    /* border: 1px solid black; */
+    padding: 17px 25px;
+}
+.assessment-overview-heading{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 17px;
+}
+.assessment-overview-content{
+    border: 1px solid #cfcaca;
+    border-radius: 10px;
+    /* height: 9rem; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+}
+.a{
+    /* border: 1px solid rosybrown; */
+    padding: 19px 19px;
+    width: 100%;
+}
+.a-container{
+    display: flex;
+}
+.b{
+    /* border: 1px solid rosybrown; */
+    padding: 19px 19px;
+    width: 100%;
+}
+.b-container{
+    display: flex;
+}
+.c{
+    /* border: 1px solid rosybrown; */
+    padding: 19px 19px;
+    width: 100%;
+}
+.c-container{
+    display: flex;
+}
+.d{
+    /* border: 1px solid rosybrown; */
+    padding: 19px 19px;
+    width: 100%;
+}
+.d-container{
+    display: flex;
+}
+.assessment-overview-subheading{
+    height: 2.5rem;
+    font-weight: bold;
+}
+.assessment-overview-subcontent{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.assessment-overview-icon{
+    padding: 15px;
+    border-radius: 7px;
+    color: blue;
+    background-color: #d5d5d5;
+    margin-top: 5px;
+}
+.assessment-overview-icon-c{
+    padding: 15px;
+    border-radius: 7px;
+    color: rgb(210, 94, 94);
+    background-color: #f9e0e0;
+    margin-top: 5px;
+}
+.assessment-overview-subcontent-a1{
+    font-size: 26px;
+    font-weight: bold;
+}
+.assessment-overview-subcontent-b1{
+    margin-right: 22px;
+}
+.assessment-overview-subcontent-b2{
+    margin-left: 22px;
+}
+.assessment-overview-subcontent-c1{
+    margin-right: 22px;
+}
+.assessment-overview-subcontent-c2{
+    margin-right: 22px;
+    margin-left: 22px;
+}
+.assessment-overview-subcontent-c3{
+    margin-left: 22px;
+}
+
+.assessment-overview-divider{
+    /* border-top: 3px dotted #ccc; */
+    margin: auto 0px;
+    height: 100%;
+}
+
+.assessment-overview-subcontent-details{
+    display: flex;
+}
+.assessment-overview-number{
+    font-size: 21px;
+    font-weight: bold;
+}
+.assessment-overview-number span{
+    color: #35d535;
+    font-size: 16px;
+}
+.assessment-overview-text{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+@media (max-width: 500px) {
+
+    .assessment-overview-divider{
+        display: none;
+    }
+}

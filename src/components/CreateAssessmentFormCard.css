@@ -1,0 +1,130 @@
+.form-container {
+    /* border: 1px solid #ffcaca; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    border-radius: 6px;
+    z-index: 1000;
+}
+
+.new-assessment-form-container {
+    width: 40%;
+    padding: 5px 16px;
+    background-color: #fbfbfb;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    margin: auto;
+}
+
+.new-assessment-heading-container span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.new-assessment-close-icon {
+    font-size: 33px !important;
+    font-weight: bolder;
+    /* float: right; */
+}
+
+.new-assessment-heading-container {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    margin: auto;
+    align-items: center;
+    padding: 13px;
+}
+
+.new-assessment-form-fields-container {
+    padding: 4px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.new-assessment-name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 0px;
+}
+
+.new-assessment-name-container input {
+    font-size: 17px;
+    opacity: 0.7;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+}
+
+.new-assessment-name-container select {
+    width: 100%;
+    font-size: 17px;
+    opacity: 0.5;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #c4c4c4;
+}
+
+.new-assessment-name-container span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.new-assessment-skills-container>div {
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+}
+
+.new-assessment-skills-container input {
+    border: none;
+}
+
+.new-assessment-skills {
+    padding: 14px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.new-assessment-skill {
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #b1fff2;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.new-assessment-save-btn-container {
+    padding: 22px 16px;
+}
+
+.new-assessment-save-btn-container button {
+    width: 100%;
+    padding: 13px 0;
+    font-size: 17px;
+    border-radius: 13px;
+    background-color: #115acc;
+    color: white;
+    font-family: revert;
+}
+
+@media (max-width: 500px) {
+    .form-container {
+        width: 91%;
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .new-assessment-form-container {
+        width: 80%;
+        bottom: 0;
+    }
+
+}

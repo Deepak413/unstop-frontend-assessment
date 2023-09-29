@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+.main-container {
+    display: flex;
+    z-index: 1000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-container {
+    width: 88%;
+    background-color: white;
+    border-radius: 12px;
+    height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading-container {
+    /* background-color: #f9d7d7; */
+    border-bottom: 1px solid #cdcccc;
+    padding: 22px 0px;
+    border-radius: 0px;
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.big-heading {
+    /* border: 1px solid red; */
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: bolder;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-toggler {
+    visibility: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divider {
+    /* border-top: 3px dotted #ccc; */
+    margin: auto 0px;
+    height: 62%;
+}
+
+.small-heading {
+    /* border: 1px solid red; */
+    /* width: 14rem; */
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: bold;
+    color: skyblue;
+    border-bottom: 2px solid skyblue;
+}
+
+
+@media (max-width: 500px) {
+    .heading-container {
+        flex-direction: column;
+    }
+
+    .navbar-toggler {
+        visibility: visible;
+        background-color: #c7fbf4;
+        padding: 17px;
+        border-radius: 50%;
+        font-size: 26px !important;
+        margin-right: 13px;
+    }
+
+    .divider {
+        visibility: hidden;
+    }
+
+    .content-container {
+        width: 130%;
+    }
+
+    .big-heading {
+        width: 46%;
+        margin: 10px 0;
+    }
+    .small-heading{
+        width: 37%;
+    padding: 21px;
+    }
+    .assessment-overview-heading{
+        display: none;
+    }
 }
