@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/unstop-frontend-assessment/static/css/main.e46f5cef.css",
+    "main.js": "/unstop-frontend-assessment/static/js/main.036fbd52.js",
+    "static/js/787.93455dee.chunk.js": "/unstop-frontend-assessment/static/js/787.93455dee.chunk.js",
+    "index.html": "/unstop-frontend-assessment/index.html",
+    "main.e46f5cef.css.map": "/unstop-frontend-assessment/static/css/main.e46f5cef.css.map",
+    "main.036fbd52.js.map": "/unstop-frontend-assessment/static/js/main.036fbd52.js.map",
+    "787.93455dee.chunk.js.map": "/unstop-frontend-assessment/static/js/787.93455dee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e46f5cef.css",
+    "static/js/main.036fbd52.js"
+  ]
+}
